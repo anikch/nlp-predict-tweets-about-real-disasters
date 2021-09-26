@@ -17,7 +17,6 @@ Competition details and dataset can be found in kaggle: https://www.kaggle.com/c
 
            0       0.83      0.88      0.85       863
            1       0.83      0.76      0.80       660
-
     accuracy                           0.83      1523
    macro avg       0.83      0.82      0.82      1523
 weighted avg       0.83      0.83      0.83      1523
