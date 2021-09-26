@@ -10,7 +10,9 @@ Competition details and dataset can be found in kaggle: https://www.kaggle.com/c
 1. Performed text pre-processing and replaced constactions (e.g. wouldn't to would not) in dataset.
 2. Used BERT pre-trainted model **bert-base-uncased** with maxlength 512.
 3. Identified optimal learning rate (3e-5) and fine-tuned using one cycle policy and the optimal learning rate.
-4. Evaluated on Test dataset. Confusion matrix is as below:
+5. Evaluated on Test dataset. Confusion matrix is as below:
+
+
               precision    recall  f1-score   support
 
            0       0.83      0.88      0.85       863
@@ -19,5 +21,7 @@ Competition details and dataset can be found in kaggle: https://www.kaggle.com/c
     accuracy                           0.83      1523
    macro avg       0.83      0.82      0.82      1523
 weighted avg       0.83      0.83      0.83      1523
+
+
 
 5. Performed prediction on final dataset and submitted. Got Public Score: 0.81428
