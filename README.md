@@ -12,15 +12,7 @@ Competition details and dataset can be found in kaggle: https://www.kaggle.com/c
 3. Identified optimal learning rate (3e-5) and fine-tuned using one cycle policy and the optimal learning rate.
 5. Evaluated on Test dataset. Confusion matrix is as below:
 
-
-              precision    recall  f1-score   support
-
-           0       0.83      0.88      0.85       863
-           1       0.83      0.76      0.80       660
-    accuracy                           0.83      1523
-   macro avg       0.83      0.82      0.82      1523
-weighted avg       0.83      0.83      0.83      1523
-
+![image](https://user-images.githubusercontent.com/77941537/134822347-838d577c-354e-4da4-ade1-eb2a1c35493c.png)
 
 
 5. Performed prediction on final dataset and submitted. Got Public Score: 0.81428
