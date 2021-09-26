@@ -12,7 +12,8 @@ Competition details and dataset can be found in kaggle: https://www.kaggle.com/c
 3. Identified optimal learning rate (3e-5) and fine-tuned using one cycle policy and the optimal learning rate.
 5. Evaluated on Test dataset. Confusion matrix is as below:
 
-![image](https://user-images.githubusercontent.com/77941537/134822347-838d577c-354e-4da4-ade1-eb2a1c35493c.png)
+
+![image](https://user-images.githubusercontent.com/77941537/134822370-390b6d57-a8d6-495d-a029-f691bdcc1d63.png)
 
 
 5. Performed prediction on final dataset and submitted. Got Public Score: 0.81428
